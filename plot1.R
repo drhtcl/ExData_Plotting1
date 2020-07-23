@@ -10,7 +10,7 @@ gap <-rbind(fev1,fev2)
 gap$Global_active_power <- as.numeric(gap$Global_active_power)
 #selecting file name
 png(file="plot1.png",width = 480, height = 480)
-#GRaph cration
+#Graph cration
 hist(gap$Global_active_power,main="Global Active Power",
      col="red",xlab="Global Active Power (kilowatts)", ylab="Frequency")
 #closing
